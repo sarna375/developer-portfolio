@@ -21,7 +21,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 0 70px 100px;
 }
 .nav-title{
     color:black;
@@ -45,13 +45,47 @@ nav a{
 /*header related style */
 .header{
     background-color: bisque;
+    background-image:  url('images/header_bg.png')  ;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 600px;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 70px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
 }
 .pic{
     width: 300px;
     
+}
+.banner-g{
+    font-size: 40px;
+    color:rgb(99, 97, 97);
+    margin-bottom: 0;
+}
+.banner-t{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.about{
+    padding: 130px;
+    background-color: bisque;
+    margin: 50px 0;
+}
+.section-t{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.sec-des{
+    text-align: center;
+    font-size: 18px;
 }
