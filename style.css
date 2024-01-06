@@ -1,0 +1,41 @@
+/* Style share */
+body{
+font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: rgb(236, 87, 61);
+}
+.btn-primary{
+    font-weight: 700;
+    background-color: rgb(236, 87, 61);
+    border-radius: 5px;
+    border:0;
+    font-size: 20px;
+    color: white;
+    padding: 15px 35px;
+}
+
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color:black;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+}
