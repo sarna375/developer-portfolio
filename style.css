@@ -174,3 +174,30 @@ main{
     margin: 20px 0 10px 280px;
 
 }
+footer{
+    display: flex;
+    gap:40px;
+    background-color:bisque;
+    margin: 45px;
+    padding: 20px;
+}
+.footer-col{
+    width: 50%;
+}
+.contact input,textarea{
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+}
+.sub{
+    font-weight: 700;
+    background-color: rgb(236, 87, 61);
+    border-radius: 5px;
+    border:2px solid black;
+    font-size: 20px;
+    color: white;
+    padding: 15px 35px;
+
+
+}
