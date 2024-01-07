@@ -40,6 +40,7 @@ nav li{
 nav a{
     text-decoration: none;
     color:black;
+    font-size: 20px;
 }
 
 /*header related style */
@@ -74,10 +75,14 @@ nav a{
     margin-top: 5px;
     margin-bottom: 20px;
 }
+main{
+    max-width: 700px;
+    margin: 0 auto;
+}
 .about{
-    padding: 130px;
+    padding: 15px;
     background-color: bisque;
-    margin: 50px 0;
+    margin: 25px 0;
 }
 .section-t{
     color: black;
@@ -88,4 +93,17 @@ nav a{
 .sec-des{
     text-align: center;
     font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0 30px 0;
+}
+.info-dec{
+    font-weight: 700;
+}
+.info-t{
+    color: rgb(139, 22, 22);
+    font-weight: bold;
+    font-size: 20px;
 }
